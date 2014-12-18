@@ -1,1 +1,21 @@
+# ignore dir where packages are downloaded
 elpa/
+
+# ignore backup directory
+backups/
+
+# ignore auto-save-list directory
+auto-save-list/
+
+# ignore eshell directory
+eshell/
+
+# ignore autocomplete data file
+ac-comphist.dat
+
+# ignore ido mode file
+ido.last
+
+# ignore places file
+places
+
