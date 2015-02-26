@@ -320,6 +320,11 @@ point reaches the beginning or end of the buffer, stop there."
                 'smarter-move-beginning-of-line)
 
 
+;; set default c style to be linux style
+;; since we're doing kernel development
+(setq c-default-style "linux"
+      c-basic-offset 4)
+
 (provide 'mw-editor)
 
 ;;; mw-editor.el ends here
