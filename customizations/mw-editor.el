@@ -325,6 +325,10 @@ point reaches the beginning or end of the buffer, stop there."
 (setq c-default-style "linux"
       c-basic-offset 4)
 
+;; damn electric indent mode
+;; let's turn that crap off.
+(when (fboundp 'electric-indent-mode) (electric-indent-mode -1))
+
 (provide 'mw-editor)
 
 ;;; mw-editor.el ends here
