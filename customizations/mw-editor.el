@@ -329,6 +329,10 @@ point reaches the beginning or end of the buffer, stop there."
 ;; let's turn that crap off.
 (when (fboundp 'electric-indent-mode) (electric-indent-mode -1))
 
+;; remove trailing whitespace on save
+;; http://www.emacswiki.org/emacs/DeletingWhitespace
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+
 (provide 'mw-editor)
 
 ;;; mw-editor.el ends here
