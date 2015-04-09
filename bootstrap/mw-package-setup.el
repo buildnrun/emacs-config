@@ -14,6 +14,7 @@
     diff-hl
     diminish
     easy-kill
+    ess
     expand-region
     guru-mode
     helm

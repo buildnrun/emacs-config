@@ -29,4 +29,7 @@
 ;; (require 'doremi-cmd)
 ;; (require 'doremi-frm)
 
+;; enable ess (emacs speaks statistics)
+(require 'ess-site)
+
 (provide 'mw-plugins)
