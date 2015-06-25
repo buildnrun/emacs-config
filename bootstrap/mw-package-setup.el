@@ -1,5 +1,6 @@
 (defvar mw-packages
-  '(ack-and-a-half
+  '(
+    ;ack-and-a-half
     anzu
     auctex
     auto-complete
