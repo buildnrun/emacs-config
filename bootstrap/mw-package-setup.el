@@ -26,6 +26,7 @@
     projectile
     python
     rainbow-mode
+    scala-mode2
     smartparens
     smartrep
     undo-tree
