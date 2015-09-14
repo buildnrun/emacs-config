@@ -333,7 +333,12 @@ point reaches the beginning or end of the buffer, stop there."
 ;; http://www.emacswiki.org/emacs/DeletingWhitespace
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
+;; change default split screen direction to vertical split
+;; http://stackoverflow.com/questions/2081577/setting-emacs-split-to-horizontal
+(setq split-height-threshold nil)
+(setq split-width-threshold 0)
+
+
 (provide 'mw-editor)
 
 ;;; mw-editor.el ends here
-
