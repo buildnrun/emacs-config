@@ -17,6 +17,8 @@
     easy-kill
     ess
     expand-region
+    gradle-mode
+    groovy-mode
     guru-mode
     helm
     magit

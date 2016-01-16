@@ -24,4 +24,8 @@
 ;; enable ess (emacs speaks statistics)
 (require 'ess-site)
 
+;; enable gradle
+(require 'gradle-mode)
+(gradle-mode 1)
+
 (provide 'mw-plugins)
