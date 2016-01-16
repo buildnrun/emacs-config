@@ -31,6 +31,7 @@
     scala-mode2
     smartparens
     smartrep
+    sml-mode
     undo-tree
     volatile-highlights
     yaml-mode
