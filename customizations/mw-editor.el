@@ -285,10 +285,6 @@ The body of the advice is in BODY."
 (guru-global-mode +1)
 
 
-;; cc-mode customizations
-(setq-default c-basic-offset 4)
-
-
 ;; Customized C-a behaviour
 ;; From: http://emacsredux.com/blog/2013/05/22/smarter-navigation-to-the-beginning-of-a-line/
 
@@ -318,12 +314,6 @@ point reaches the beginning or end of the buffer, stop there."
 ;; remap C-a to `smarter-move-beginning-of-line'
 (global-set-key [remap move-beginning-of-line]
                 'smarter-move-beginning-of-line)
-
-
-;; set default c style to be linux style
-;; since we're doing kernel development
-(setq c-default-style "linux"
-      c-basic-offset 4)
 
 ;; damn electric indent mode
 ;; let's turn that crap off.
