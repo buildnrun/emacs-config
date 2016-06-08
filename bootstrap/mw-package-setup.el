@@ -28,7 +28,7 @@
     projectile
     python
     rainbow-mode
-    scala-mode2
+    scala-mode
     smartparens
     smartrep
     sml-mode
