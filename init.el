@@ -5,7 +5,7 @@
 (add-to-list 'load-path "~/.emacs.d/bootstrap/")
 (add-to-list 'load-path "~/.emacs.d/customizations/")
 
-(setq exec-path (append "/usr/local/bin" exec-path)))
+(setq exec-path (append exec-path '("/usr/local/bin")))
 
 
 (require 'mw-initial-setup)
