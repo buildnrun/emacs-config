@@ -1,3 +1,7 @@
+;; Set up the package manager as the very first thing
+(require 'package)
+(package-initialize)
+
 (add-to-list 'load-path "~/.emacs.d/bootstrap/")
 (add-to-list 'load-path "~/.emacs.d/customizations/")
 
