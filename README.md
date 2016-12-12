@@ -23,8 +23,7 @@ In terms of shell code:
 
 ```bash
 cd ~
-rm -rf .emacs.d
-mkdir dot.files
-git clone https://gitlab.com/alirazeen/emacs-myway.git dot.files/
+mv .emacs.d emacs.d.backup
+git clone https://gitlab.com/alirazeen/emacs-myway.git dot.files/emacs-myway
 ln -s dot.files/emacs-myway/ .emacs.d
 ```
