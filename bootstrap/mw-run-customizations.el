@@ -1,6 +1,3 @@
-;; set up zenburn theme
-(require 'mw-zenburn)
-
 ;; Setup the UI
 (require 'mw-ui)
 
@@ -19,4 +16,3 @@
 ;; end of mw-run-customizations.el
 (provide 'mw-run-customizations)
 ;; end of mw-run-customizations.el
-
