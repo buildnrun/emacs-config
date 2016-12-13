@@ -4,7 +4,7 @@ Emacs MyWay is a set of emacs configuration files heavily inspired by the [Prelu
 I designed it for myself when I was a new emacs user.
 My requirements were simple: (i) provide a good set of defaults, and (ii) easy to understand and make changes.
 By my standards, existing frameworks at the time were either too cluttered, or it was difficult for me to figure out their structure and make modifications.
-So one day, I decided to take [Prelude](https://github.com/bbatsov/prelude), strip away everything I considered unnecessary, and reorganized it.
+So one day, I took [Prelude](https://github.com/bbatsov/prelude), stripped away everything I considered unnecessary, and reorganized it.
 My hope is that other emacs users would find this useful as well.
 
 ## Installation
