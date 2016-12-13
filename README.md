@@ -16,7 +16,7 @@ Follow the instructions below to use Emacs MyWay.
 1. If you haven't already, install Emacs.
   * If possible, install version 25. Otherwise, version 24 should still work.
   * If you're using Mac OSX, I highly recommend installing emacs with [Homebrew](http://brew.sh)
-    * (Recommended command: `brew install emacs --with-cocoa --with-gnutls`)
+     * (Recommended command: `brew install emacs --with-cocoa --with-gnutls`)
 2. Clone this repository.
 3. Remove your existing `.emacs.d` directory.
 4. Symlink the cloned repository to `.emacs.d`.
