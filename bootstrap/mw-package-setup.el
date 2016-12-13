@@ -23,6 +23,7 @@
     magit
     markdown-mode
     operate-on-number
+    org
     paredit
     projectile
     python
