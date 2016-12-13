@@ -1,4 +1,3 @@
-(require 'auto-complete-clang)
 (require 'auto-complete-clang-async)
 
 (define-key ac-mode-map  [(control tab)] 'auto-complete)

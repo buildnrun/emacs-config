@@ -4,7 +4,6 @@
     anzu
     auctex
     auto-complete
-    auto-complete-clang
     auto-complete-clang-async
     auto-dictionary
     better-defaults
