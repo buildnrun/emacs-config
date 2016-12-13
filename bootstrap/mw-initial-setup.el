@@ -4,6 +4,6 @@
 
 ;; Add the melpa repo to the package manager
 (add-to-list 'package-archives
-	       '("melpa" . "http://melpa.org/packages/") t)
+	       '("melpa-stable" . "http://stable.melpa.org/packages/") t)
 
 (provide 'mw-initial-setup)
