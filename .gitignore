@@ -10,6 +10,9 @@ auto-save-list/
 # ignore eshell directory
 eshell/
 
+# ignore abbrev directory
+abbrev/
+
 # ignore autocomplete data file
 ac-comphist.dat
 
