@@ -255,6 +255,7 @@ The body of the advice is in BODY."
 
 ;; operate-on-number
 (require 'operate-on-number)
+(require 'smartrep)
 (smartrep-define-key global-map "C-c ."
                      '(("+" . apply-operation-to-number-at-point)
                        ("-" . apply-operation-to-number-at-point)
