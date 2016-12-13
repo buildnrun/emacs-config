@@ -65,6 +65,9 @@ Missing packages are installed automatically."
     ;; install the missing packages
     (mw-require-packages mw-packages)))
 
+;; Finish any required tasks before installing packages
+(require 'mw-package-pre-install)
+
 ;; run package installation
 (mw-install-packages)
 
