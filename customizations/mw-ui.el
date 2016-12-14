@@ -55,6 +55,11 @@
 (volatile-highlights-mode t)
 (diminish 'volatile-highlights-mode)
 
+;; change default split screen direction to vertical split
+;; http://stackoverflow.com/questions/2081577/setting-emacs-split-to-horizontal
+(setq split-height-threshold nil)
+(setq split-width-threshold 0)
+
 (provide 'mw-ui)
 
 ;;; mw-ui.el ends here
