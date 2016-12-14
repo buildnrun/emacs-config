@@ -109,7 +109,7 @@ The body of the advice is in BODY."
 (whitespace-mode +1)
 
 ;; remove trailing whitespace on save
-(add-hook 'before-save-hook 'whitespace-cleanup))
+(add-hook 'before-save-hook 'whitespace-cleanup)
 
 ;; enable narrowing commands
 (put 'narrow-to-region 'disabled nil)
