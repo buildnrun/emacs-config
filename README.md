@@ -29,3 +29,18 @@ rm .emacs.d
 git clone https://gitlab.com/alirazeen/emacs-myway.git dot.files/emacs-myway
 ln -s dot.files/emacs-myway/ .emacs.d
 ```
+
+## License
+
+This whole project is licensed as GPLv3+.
+
+## Documentation
+
+See the `docs/` folder for further documentation:
+
+* [Project Structure](docs/project-structure.md)
+* [How do I ... ?](docs/how-do-i.md)
+
+## Contact
+
+If you have questions or suggestions, please email me at "alirazeen at alirazeen dot com".
