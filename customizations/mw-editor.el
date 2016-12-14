@@ -101,8 +101,15 @@ The body of the advice is in BODY."
       ispell-extra-args '("--sug-mode=ultra"))
 
 (flyspell-mode +1)
-(whitespace-cleanup)
+
+;; whitespace-mode config
+(require 'whitespace)
+(setq whitespace-line-column 80) ;; limit line length
+(setq whitespace-style '(face tabs empty trailing))
 (whitespace-mode +1)
+
+;; remove trailing whitespace on save
+(add-hook 'before-save-hook 'whitespace-cleanup))
 
 ;; enable narrowing commands
 (put 'narrow-to-region 'disabled nil)
@@ -179,10 +186,6 @@ The body of the advice is in BODY."
 ;; .zsh file is shell script too
 (add-to-list 'auto-mode-alist '("\\.zsh\\'" . shell-script-mode))
 
-;; whitespace-mode config
-(require 'whitespace)
-(setq whitespace-line-column 80) ;; limit line length
-(setq whitespace-style '(face tabs empty trailing))
 
 ;; saner regex syntax
 (require 're-builder)
@@ -291,10 +294,6 @@ point reaches the beginning or end of the buffer, stop there."
 ;; damn electric indent mode
 ;; let's turn that crap off.
 (when (fboundp 'electric-indent-mode) (electric-indent-mode -1))
-
-;; remove trailing whitespace on save
-;; http://www.emacswiki.org/emacs/DeletingWhitespace
-(add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 (provide 'mw-editor)
 
