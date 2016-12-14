@@ -1,7 +1,7 @@
 ;; Inspired by prelude's prelude-ui
 
 ;; set up zenburn theme
-(require 'mw-zenburn)
+(load-theme 'zenburn t)
 
 ;; nice scrolling
 (setq scroll-margin 0
