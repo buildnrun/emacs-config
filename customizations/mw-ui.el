@@ -35,4 +35,7 @@
 (when (fboundp 'windmove-default-keybindings)
   (windmove-default-keybindings))
 
+;; disable annoying blink-matching-paren
+(setq blink-matching-paren nil)
+
 (provide 'mw-ui)
