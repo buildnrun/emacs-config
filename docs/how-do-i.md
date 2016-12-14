@@ -30,3 +30,4 @@ By default, emacs-myway uses the [Zenburn](https://github.com/bbatsov/zenburn-em
 If you would like to use another theme, you would need to add the theme to the package list (see #).
 Next, you would modify [mw-ui.el](../customizations/mw-ui.el) to load your new theme instead of Zenburn.
 After modifying [mw-ui.el](../customizations/mw-ui.el), save the file and restart emacs.
+A gallery of emacs themes is available at [emacsthemes.com(https://emacsthemes.com).
