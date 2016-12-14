@@ -71,9 +71,6 @@
 
 (show-smartparens-global-mode +1)
 
-;; diminish keeps the modeline tidy
-(require 'diminish)
-
 ;; meaningful names for buffers with the same name
 (require 'uniquify)
 (setq uniquify-buffer-name-style 'forward)

@@ -38,4 +38,7 @@
 ;; disable annoying blink-matching-paren
 (setq blink-matching-paren nil)
 
+;; diminish keeps the modeline tidy
+(require 'diminish)
+
 (provide 'mw-ui)
