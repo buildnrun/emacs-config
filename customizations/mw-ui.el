@@ -48,4 +48,7 @@
 (setq uniquify-after-kill-buffer-p t)    ; rename after killing uniquified
 (setq uniquify-ignore-buffers-re "^\\*") ; don't muck with special buffers
 
+;; highlight the current line
+(global-hl-line-mode +1)
+
 (provide 'mw-ui)
