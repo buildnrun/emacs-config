@@ -56,3 +56,5 @@
 (diminish 'volatile-highlights-mode)
 
 (provide 'mw-ui)
+
+;;; mw-ui.el ends here
