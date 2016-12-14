@@ -83,10 +83,6 @@
 (setq uniquify-separator "/")
 (setq uniquify-after-kill-buffer-p t)    ; rename after killing uniquified
 (setq uniquify-ignore-buffers-re "^\\*") ; don't muck with special buffers
-;; use shift + arrow keys to switch between visible buffers
-(require 'windmove)
-(windmove-default-keybindings)
-
 (defmacro advise-commands (advice-name commands class &rest body)
     "Apply advice named ADVICE-NAME to multiple COMMANDS.
 

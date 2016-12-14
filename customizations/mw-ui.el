@@ -29,6 +29,9 @@
                                                   "%b"))))
 
 ;; enable windmove
+(require 'windmove)
+
+;; use shift + arrow keys to switch between visible buffers
 (when (fboundp 'windmove-default-keybindings)
   (windmove-default-keybindings))
 
