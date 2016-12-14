@@ -24,3 +24,6 @@ places
 
 # ignore swp files
 .swp
+
+# ignore ds_store (mac only)
+.DS_Store
