@@ -54,9 +54,15 @@
 ;; enable windmove
 (require 'windmove)
 
-;; use shift + arrow keys to switch between visible buffers
-(when (fboundp 'windmove-default-keybindings)
-  (windmove-default-keybindings))
+;; use meta + arrow keys to switch between visible buffers
+(windmove-default-keybindings 'meta)
+
+;; the esc + arrow keys are mac-specific and are needed in case we
+;; want to use the meta key in iterm2
+(global-set-key (kbd "ESC <up>") 'windmove-up)
+(global-set-key (kbd "ESC <down>") 'windmove-down)
+(global-set-key (kbd "ESC <right>") 'windmove-right)
+(global-set-key (kbd "ESC <left>") 'windmove-left)
 
 ;; disable annoying blink-matching-paren
 (setq blink-matching-paren nil)
