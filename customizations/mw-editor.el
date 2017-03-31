@@ -256,9 +256,6 @@ The body of the advice is in BODY."
             ; ...
            ))
 
-;; enable guru mode
-(require 'guru-mode)
-(guru-global-mode +1)
 
 
 ;; Customized C-a behaviour

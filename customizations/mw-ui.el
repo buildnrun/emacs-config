@@ -47,6 +47,10 @@
                                                     (abbreviate-file-name (buffer-file-name))
                                                   "%b"))))
 
+;; enable guru mode
+(require 'guru-mode)
+(guru-global-mode +1)
+
 ;; enable windmove
 (require 'windmove)
 
