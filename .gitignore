@@ -25,5 +25,9 @@ places
 # ignore swp files
 .swp
 
+# ignore bookmarks file
+# (created if you use emacs's bookmark feature)
+bookmarks
+
 # ignore ds_store (mac only)
 .DS_Store
