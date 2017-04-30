@@ -34,6 +34,10 @@
 (require 'ivy)
 (ivy-mode 1)
 
+; Let ivy use flx for fuzzy-matching
+(require 'flx)
+(setq ivy-re-builders-alist '((t . ivy--regex-fuzzy)))
+
 ;; ;; enable doremi
 ;; (require 'doremi)
 ;; (require 'doremi-cmd)

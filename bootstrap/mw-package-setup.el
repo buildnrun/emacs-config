@@ -36,6 +36,7 @@
     easy-kill
     ess
     expand-region
+    flx
     gradle-mode
     groovy-mode
     guru-mode
