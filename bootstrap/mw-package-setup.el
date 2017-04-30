@@ -46,6 +46,7 @@
     paredit
     projectile
     python
+    rainbow-delimiters
     rainbow-mode
     scala-mode
     smartparens

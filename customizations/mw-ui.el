@@ -94,6 +94,9 @@
 ;; (adapted from https://www.reddit.com/r/emacs/comments/51lqn9/helm_or_ivy/d7d34il/)
 (define-key ivy-minibuffer-map (kbd "C-m") 'ivy-alt-done)
 
+;; enable rainbow delimiters
+(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
+
 (provide 'mw-ui)
 
 ;;; mw-ui.el ends here
