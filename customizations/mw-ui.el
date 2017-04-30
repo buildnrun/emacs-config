@@ -110,6 +110,8 @@
 (setf (alist-get 'counsel-M-x ivy-initial-inputs-alist nil t) nil)
 (global-set-key (kbd "M-x") 'counsel-M-x)
 
+(global-set-key (kbd "C-x C-f") 'counsel-find-file)
+
 (provide 'mw-ui)
 
 ;;; mw-ui.el ends here
