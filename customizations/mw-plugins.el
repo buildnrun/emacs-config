@@ -35,9 +35,13 @@
 (ivy-mode 1)
 (setq ivy-use-virtual-buffers t)
 
-; Let ivy use flx for fuzzy-matching
+;; Let ivy use flx for fuzzy-matching
+;; (but use regular regex matching for swiper.)
 (require 'flx)
-(setq ivy-re-builders-alist '((t . ivy--regex-fuzzy)))
+(setq ivy-re-builders-alist
+      '((swiper . ivy--regex)
+        (t . ivy--regex-fuzzy)))
+
 
 ; Use projectile and counsel-projectile
 (projectile-mode)
