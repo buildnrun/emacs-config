@@ -38,7 +38,7 @@
     gradle-mode
     groovy-mode
     guru-mode
-    helm
+    ivy
     magit
     markdown-mode
     operate-on-number
