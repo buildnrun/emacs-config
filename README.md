@@ -2,10 +2,11 @@
 
 Emacs MyWay is a set of emacs configuration files heavily inspired by the [Prelude](https://github.com/bbatsov/prelude) project.
 I designed it for myself when I was a new emacs user.
-My requirements were simple: (i) provide a good set of defaults, and (ii) easy to understand and make changes.
+My requirements were simple: (i) provide a good set of defaults, and (ii) be easy to understand and make changes.
 By my standards, existing frameworks at the time were either too cluttered, or it was difficult for me to figure out their structure and make modifications.
 So one day, I took [Prelude](https://github.com/bbatsov/prelude), stripped away everything I considered unnecessary, and reorganized it.
 My hope is that other emacs users would find this useful as well.
+Please do spend a few minutes reading the [philosophy](docs/philosophy.md) of this project.
 
 ## Installation
 
@@ -38,6 +39,7 @@ This whole project is licensed as GPLv3+.
 
 See the `docs/` folder for further documentation:
 
+* [Philosophy](docs/philosophy.md)
 * [Project Structure](docs/project-structure.md)
 * [How do I ... ?](docs/how-do-i.md)
 
