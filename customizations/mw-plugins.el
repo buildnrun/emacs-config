@@ -33,6 +33,7 @@
 ;; enable ivy
 (require 'ivy)
 (ivy-mode 1)
+(setq ivy-use-virtual-buffers t)
 
 ; Let ivy use flx for fuzzy-matching
 (require 'flx)
