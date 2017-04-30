@@ -52,6 +52,7 @@
     smartparens
     smartrep
     sml-mode
+    swiper
     undo-tree
     volatile-highlights
     yaml-mode

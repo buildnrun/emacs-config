@@ -97,6 +97,9 @@
 ;; enable rainbow delimiters
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 
+;; Use swiper to search
+(global-set-key "\C-s" 'swiper)
+
 (provide 'mw-ui)
 
 ;;; mw-ui.el ends here
