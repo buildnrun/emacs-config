@@ -116,6 +116,11 @@
 (global-set-key (kbd "C-x C-f") 'counsel-find-file)
 (global-set-key (kbd "C-c k") 'counsel-ag)
 
+;; Enable recentf
+(require 'recentf)
+(recentf-mode 1)
+(setq recentf-max-menu-items 25)
+
 (provide 'mw-ui)
 
 ;;; mw-ui.el ends here
