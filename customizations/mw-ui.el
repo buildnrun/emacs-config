@@ -100,6 +100,16 @@
 ;; Use swiper to search
 (global-set-key "\C-s" 'swiper)
 
+;; Counsel-specific settings
+
+;;; By default, counsel-M-x inserts a "^" character. This is to ensure
+;;; that command you're searching for begins with the characters you
+;;; type. The alist-get command below removes that initial character
+;;; (which is located in the list `ivy-initial-inputs-alist, see:
+;;; https://github.com/abo-abo/swiper/blob/a2bb1c488349a174ec088e538101a120e996ebc5/ivy.el#L1367)
+(setf (alist-get 'counsel-M-x ivy-initial-inputs-alist nil t) nil)
+(global-set-key (kbd "M-x") 'counsel-M-x)
+
 (provide 'mw-ui)
 
 ;;; mw-ui.el ends here
