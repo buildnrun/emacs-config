@@ -29,5 +29,8 @@ places
 # (created if you use emacs's bookmark feature)
 bookmarks
 
+# ignore recentf file
+recentf
+
 # ignore ds_store (mac only)
 .DS_Store
