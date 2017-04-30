@@ -22,6 +22,9 @@
 ;; set up zenburn theme
 (load-theme 'zenburn t)
 
+;; Enable recursive mini buffers
+(setq enable-recursive-minibuffers t)
+
 ;; nice scrolling
 (setq scroll-margin 0
       scroll-conservatively 100000
