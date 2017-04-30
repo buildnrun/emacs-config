@@ -28,6 +28,7 @@
     better-defaults
     browse-kill-ring
     counsel
+    counsel-projectile
     ;doremi
     ;doremi-cmd
     ;doremi-frm

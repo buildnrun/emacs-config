@@ -39,8 +39,9 @@
 (require 'flx)
 (setq ivy-re-builders-alist '((t . ivy--regex-fuzzy)))
 
-; Use projectile
+; Use projectile and counsel-projectile
 (projectile-mode)
+(counsel-projectile-on)
 
 ;; ;; enable doremi
 ;; (require 'doremi)
