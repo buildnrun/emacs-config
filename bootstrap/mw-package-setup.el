@@ -27,6 +27,7 @@
     auto-dictionary
     better-defaults
     browse-kill-ring
+    counsel
     ;doremi
     ;doremi-cmd
     ;doremi-frm
