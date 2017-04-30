@@ -36,5 +36,8 @@ recentf
 # (typically appears as projectile-bookmarks.eld)
 *.eld
 
+# ignore projectile cache
+projectile.cache
+
 # ignore ds_store (mac only)
 .DS_Store
