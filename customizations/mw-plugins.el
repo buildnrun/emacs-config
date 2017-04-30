@@ -47,6 +47,9 @@
 (projectile-mode)
 (counsel-projectile-on)
 
+;; Enable caching in projectile
+(setq projectile-enable-caching t)
+
 ;; ;; enable doremi
 ;; (require 'doremi)
 ;; (require 'doremi-cmd)
