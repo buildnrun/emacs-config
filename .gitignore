@@ -32,5 +32,9 @@ bookmarks
 # ignore recentf file
 recentf
 
+# ignore projectile file
+# (typically appears as projectile-bookmarks.eld)
+*.eld
+
 # ignore ds_store (mac only)
 .DS_Store
