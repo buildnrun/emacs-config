@@ -89,6 +89,11 @@
 (setq split-height-threshold nil)
 (setq split-width-threshold 0)
 
+;; ivy-related
+;; Use Enter on a directory to navigate into the directory, not open it with dired.
+;; (adapted from https://www.reddit.com/r/emacs/comments/51lqn9/helm_or_ivy/d7d34il/)
+(define-key ivy-minibuffer-map (kbd "C-m") 'ivy-alt-done)
+
 (provide 'mw-ui)
 
 ;;; mw-ui.el ends here
