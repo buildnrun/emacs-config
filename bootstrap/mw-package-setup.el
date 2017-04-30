@@ -19,7 +19,6 @@
 
 (defvar mw-packages
   '(
-    ;ack-and-a-half
     anzu
     auctex
     auto-complete
@@ -29,9 +28,6 @@
     browse-kill-ring
     counsel
     counsel-projectile
-    ;doremi
-    ;doremi-cmd
-    ;doremi-frm
     diff-hl
     diminish
     easy-kill
