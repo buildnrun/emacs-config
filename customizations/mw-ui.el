@@ -121,6 +121,9 @@
 (recentf-mode 1)
 (setq recentf-max-menu-items 25)
 
+;; Prettify docview
+(require 'doc-view)
+(setq doc-view-resolution 196)
 (provide 'mw-ui)
 
 ;;; mw-ui.el ends here
