@@ -124,6 +124,18 @@
 ;; Prettify docview
 (require 'doc-view)
 (setq doc-view-resolution 196)
+
+(setq compilation-finish-functions 'compile-autoclose)
+(defun compile-autoclose (buffer string)
+  (cond ((string-match "finished" string)
+         (bury-buffer "*compilation*")
+         (winner-undo)
+         (message "Build successful."))
+        (t
+         (message "Compilation exited abnormally: %s" string))))
+
+(global-set-key "\C-x\C-m" 'compile)
+
 (provide 'mw-ui)
 
 ;;; mw-ui.el ends here
