@@ -293,7 +293,8 @@ point reaches the beginning or end of the buffer, stop there."
 (when (fboundp 'electric-indent-mode) (electric-indent-mode -1))
 
 ;; Add texbin to path
-(setenv "PATH" (concat "/usr/local/texbin" ":" (getenv "PATH")))
+(setenv "PATH" (concat "/Library/TeX/texbin" ":" (getenv "PATH")))
+
 
 (provide 'mw-editor)
 
