@@ -24,6 +24,7 @@
     auto-complete
     auto-complete-clang-async
     auto-dictionary
+    avy
     better-defaults
     browse-kill-ring
     counsel
