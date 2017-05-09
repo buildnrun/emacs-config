@@ -55,6 +55,7 @@
     swiper
     undo-tree
     volatile-highlights
+    which-key
     yaml-mode
     xcscope
     zenburn-theme)
