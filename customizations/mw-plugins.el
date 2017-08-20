@@ -73,4 +73,8 @@
   (setq indent-tabs-mode nil))
 (add-hook 'sml-mode-hook 'my-sml-mode-hook)
 
+;; configure org mode
+(setq org-todo-keywords '((sequence "TODO" "IN-PROGRESS" "WAITING" "|" "DONE" "CANCELED")))
+(setq org-log-done 'note)
+
 (provide 'mw-plugins)
