@@ -39,6 +39,7 @@
     groovy-mode
     guru-mode
     ivy
+    ivy-rich
     magit
     markdown-mode
     operate-on-number
