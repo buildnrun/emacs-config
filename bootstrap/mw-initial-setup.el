@@ -33,4 +33,11 @@
     (setf gnutls-verify-error t)
     (setf gnutls-trustfiles (list "/usr/local/etc/libressl/cert.pem")))))
 
+;; Reads a file and returns a list of lines.
+;; (Adapted from http://ergoemacs.org/emacs/elisp_read_file_content.html)
+(defun mw-read-lines (filePath)
+  (with-temp-buffer
+    (insert-file-contents filePath)
+    (split-string (buffer-string) "\n" t)))
+
 (provide 'mw-initial-setup)

@@ -122,6 +122,15 @@
 (recentf-mode 1)
 (setq recentf-max-menu-items 25)
 
+;; Exclude all the paths specified in recentf-excludes
+(mapc (function
+       (lambda (line)
+         (if (and (eq (string-prefix-p ";" line) 'nil)
+                  (eq (string= "" (string-trim line)) 'nil))
+             (add-to-list 'recentf-exclude
+                          (expand-file-name (string-trim line))))))
+      (mw-read-lines "~/.emacs.d/recentf-excludes"))
+
 ;; Prettify docview
 (require 'doc-view)
 (setq doc-view-resolution 196)

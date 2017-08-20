@@ -1,0 +1,13 @@
+; When you use emacs-myway, emacs remembers your recently opened files
+; using the recentf package. You may exclude files or directories of
+; your choosing from recentf so recentf does not remember them. If you
+; specify a directory, all files within that directory are not
+; remembered. Just add one path per line (without the starting ';'
+; character).
+;
+; For example, the following line will ignore the "/tmp" directory:
+; /tmp
+;
+; Alternatively, if you want to disable this feature completely, open
+; customizations/mw-ui.el and comment out the lines that enable
+; recentf.
