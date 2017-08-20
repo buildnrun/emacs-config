@@ -100,8 +100,9 @@
 ;; enable rainbow delimiters
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 
-;; Use swiper to search
-(global-set-key "\C-s" 'swiper)
+;; Use swiper or counsel-grep to search depending on buffer size.  See
+;; https://github.com/abo-abo/swiper/issues/416.
+(global-set-key "\C-s" 'counsel-grep-or-swiper)
 
 ;; Counsel-specific settings
 
