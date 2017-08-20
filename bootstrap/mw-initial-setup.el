@@ -25,4 +25,12 @@
 (add-to-list 'package-archives
 	       '("melpa" . "https://melpa.org/packages/") t)
 
+
+;; Setup gnutls on Mac OSX
+(cond
+ ((string-equal system-type "darwin") ; Mac OS X
+  (progn
+    (setf gnutls-verify-error t)
+    (setf gnutls-trustfiles (list "/usr/local/etc/libressl/cert.pem")))))
+
 (provide 'mw-initial-setup)
