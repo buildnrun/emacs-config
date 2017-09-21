@@ -108,8 +108,10 @@ The body of the advice is in BODY."
 (setq whitespace-style '(face tabs empty trailing))
 (whitespace-mode +1)
 
-;; remove trailing whitespace on save
-(add-hook 'before-save-hook 'whitespace-cleanup)
+;; use ws-butler to remove trailing whitespace only in modified lines
+(setq ws-butler-keep-whitespace-before-point nil)
+(add-hook 'text-mode-hook 'ws-butler-mode)
+(add-hook 'prog-mode-hook 'ws-butler-mode)
 
 ;; enable narrowing commands
 (put 'narrow-to-region 'disabled nil)
