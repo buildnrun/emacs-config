@@ -20,7 +20,7 @@
 ;;; Code:
 
 ;; set up zenburn theme
-(load-theme 'zenburn t)
+(load-theme 'material t)
 
 ;; Enable recursive mini buffers
 (setq enable-recursive-minibuffers t)
