@@ -25,6 +25,12 @@
 ;; Enable recursive mini buffers
 (setq enable-recursive-minibuffers t)
 
+;; adding mouse support
+(require 'mouse)
+(xterm-mouse-mode t)
+(defun track-mouse (e))
+(setq mouse-sel-mode t)
+
 ;; nice scrolling
 (setq scroll-margin 0
       scroll-conservatively 100000
