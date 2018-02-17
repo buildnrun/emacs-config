@@ -26,10 +26,17 @@
 (setq enable-recursive-minibuffers t)
 
 ;; adding mouse support
-(require 'mouse)
+;; mouse integration
+(require 'mouse) ;; needed for iterm2 compatibility
 (xterm-mouse-mode t)
-(defun track-mouse (e))
+(global-set-key [mouse-4] '(lambda ()
+                           (interactive)
+                           (scroll-down 1)))
+(global-set-key [mouse-5] '(lambda ()
+                           (interactive)
+                           (scroll-up 1)))
 (setq mouse-sel-mode t)
+(defun track-mouse (e))
 
 ;; nice scrolling
 (setq scroll-margin 0
